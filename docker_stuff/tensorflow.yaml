@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  tensorflow-half_plus_two:
+    image: tensorflow/serving
+    ports:
+      - 8501:8501
+    volumes:
+      - C:\tfserving\tensorflow_serving\servables\tensorflow\testdata\saved_model_half_plus_two_cpu:/models/half_plus_two
+    environment:
+      - MODEL_NAME=half_plus_two
