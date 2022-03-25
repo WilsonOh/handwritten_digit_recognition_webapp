@@ -16,13 +16,13 @@ contains:
 * html, css and javascript files that make up the webapp
 
 ## To run the webapp
-- Python
+### Python
 Requirements:
 * numpy
 * requests
 * flask
 To run the flask app, simply enter `flask run`
-- Node
+### Node
 Requirements
 * expressjs
 * node-fetch
