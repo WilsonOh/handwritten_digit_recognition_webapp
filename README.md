@@ -21,9 +21,9 @@ Requirements:
 * numpy
 * requests
 * flask
-To run the flask app, simply enter `flask run`
+<br>To run the flask app, simply enter `flask run`
 ### Node
 Requirements
 * expressjs
 * node-fetch
-To run the node app, simply enter `node server.js`
+<br>To run the node app, simply enter `node server.js`
